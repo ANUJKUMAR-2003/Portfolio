@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuj's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9438d6a493.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div id="logo">
+                    <p id="logo-name"><span id="P">P</span>ortfolio</p>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer<br>
+                </p>
+                <h1>Hi, I am<br><span>Anuj</span> Kumar</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ==========about=========== -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/about me.jpg" alt="about me">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam dolore, corporis repellendus vero
+                        deleniti repudiandae rerum ea voluptates fugit veritatis quos dolores vel error quis! Assumenda
+                        molestias debitis quas neque dicta molestiae sapiente ipsum enim velit inventore temporibus
+                        autem earum quos, odit nihil illo aspernatur dolore esse. Modi, tenetur explicabo? Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Necessitatibus fuga quas, sint minima blanditiis
+                        dolor veniam aliquam numquam? Consequuntur sit porro debitis in quasi alias harum dolorum
+                        voluptates qui deserunt beatae quidem voluptatibus natus blanditiis inventore eos nulla fuga, id
+                        unde ullam ea.facere optio deleniti sapiente dolores.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web devlopment</span><br>HTML,CSS,JavaScript,<br>Bootstrap,ReactJS,NodeJS</li>
+
+                            <li><span>Programming languages</span><br>C,C++,JavaScript</li>
+                            <li><span>Tools</span><br>Git,Github,Atom,VScode</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="education">
+                        <ul>
+                            <li><span>2021-present</span><br>BE at UIET Chandigarh,<br>Panjab University</li>
+                            <li><span>2019-2020</span><br>Class 12th at JNV Karnal,<br>Percentage-94.4%</li>
+                            <li><span>2017-2018</span><br>Class 10th at JNV Karnal,<br>Percentage-90.4%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="projects">
+                        <ul>
+                            <li><span>About me website</span><br>A simple website using HTML and CSS(without flexbox and
+                                grid)</li>
+                            <li><span>Library Managment system</span><br>Librery managment website using
+                                HTML,CSS,Bootstrap and JavaScript</li>
+                            <li><span>Portfolio website</span><br>A responsive portfolio website using HTML,CSS and
+                                JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------services--------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt libero sit aut, perferendis
+                        officiis doloremque eaque minus commodi nihil assumenda aliquid possimus inventore? Nisi.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h2>Marketing</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt libero sit aut, perferendis
+                        officiis doloremque eaque minus commodi nihil assumenda aliquid possimus inventore? Nisi.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-people-roof"></i>
+                    <h2>Managment</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt libero sit aut, perferendis
+                        officiis doloremque eaque minus commodi nihil assumenda aliquid possimus inventore? Nisi.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ----------portfoilo---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/Portfolio-image.jpg" alt="">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>This is a persenol information website. It contains my skills, education, project works and
+                            the services that I can provide.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/Library-managment-image.jpg" alt="">
+                    <div class="layer">
+                        <h3>Library Managment System</h3>
+                        <p>This is a Library Managment System website build by using HTML, CSS, JavaScript and
+                            Bootstrap.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/About me website.jpg" alt="">
+                    <div class="layer">
+                        <h3>About me</h3>
+                        <p>This is a simple website made by using basic HTML and CSS. It contains all about my interest
+                            and me.</p>
+                        <a href="https://anujkumar-2003.github.io/about-me/"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn" download>See more</a>
+        </div>
+    </div>
+    <!-- ----------Contact me-------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>singrohaanuj@gmail.com</p>
+                    <p><i class="fa-solid fa-mobile-screen-button"></i>+91 7988218003</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/anuj-kumar-67a70b22a"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/anuj.singroha_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <a href="#" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy; Anuj. This is made by Anuj Kumar.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
