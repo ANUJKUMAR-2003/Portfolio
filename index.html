@@ -17,21 +17,22 @@
                 <div id="logo">
                     <p id="logo-name"><span id="P">P</span>ortfolio</p>
                 </div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()""></i>
             </nav>
-            <div class="header-text">
-                <p>Web Developer<br>
-                </p>
-                <h1>Hi, I am<br><span>Anuj</span> Kumar</h1>
-            </div>
+            <div class=" header-text">
+                    <p>Web Developer<br>
+                    </p>
+                    <h1>Hi, I am<br><span>Anuj</span> Kumar</h1>
         </div>
+    </div>
     </div>
     <!-- ==========about=========== -->
     <div id="about">
@@ -42,14 +43,10 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About me</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam dolore, corporis repellendus vero
-                        deleniti repudiandae rerum ea voluptates fugit veritatis quos dolores vel error quis! Assumenda
-                        molestias debitis quas neque dicta molestiae sapiente ipsum enim velit inventore temporibus
-                        autem earum quos, odit nihil illo aspernatur dolore esse. Modi, tenetur explicabo? Lorem ipsum
-                        dolor sit amet consectetur adipisicing elit. Necessitatibus fuga quas, sint minima blanditiis
-                        dolor veniam aliquam numquam? Consequuntur sit porro debitis in quasi alias harum dolorum
-                        voluptates qui deserunt beatae quidem voluptatibus natus blanditiis inventore eos nulla fuga, id
-                        unde ullam ea.facere optio deleniti sapiente dolores.
+                    <p>I am an undergraduate pursuing Bacherlors of Engineering in computer
+                        science at UIET, Panjab University, Chandigarh. I love problem solving and web development. I am
+                        a keen learner and a self motivated person. If you need any help contact me via social media
+                        links or by filling up the contact me form.
                     </p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -58,7 +55,7 @@
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>Web devlopment</span><br>HTML,CSS,JavaScript,<br>Bootstrap,ReactJS,NodeJS</li>
+                            <li><span>Web devlopment</span><br>HTML,CSS,JavaScript,<br>Bootstrap,ReactJS</li>
 
                             <li><span>Programming languages</span><br>C,C++,JavaScript</li>
                             <li><span>Tools</span><br>Git,Github,Atom,VScode</li>
@@ -77,8 +74,8 @@
                                 grid)</li>
                             <li><span>Library Managment system</span><br>Librery managment website using
                                 HTML,CSS,Bootstrap and JavaScript</li>
-                            <li><span>Portfolio website</span><br>A responsive portfolio website using HTML,CSS and
-                                JavaScript</li>
+                            <li><span>Word Scramble Game</span><br>An interesting word scramble game in which you will
+                                be given a scrambled word and you have to find the correct word.</li>
                         </ul>
                     </div>
                 </div>
@@ -93,22 +90,20 @@
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Web development</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt libero sit aut, perferendis
-                        officiis doloremque eaque minus commodi nihil assumenda aliquid possimus inventore? Nisi.</p>
+                    <p>I love web development. I can make interesting websites using HTML, CSS Bootstrap, JavaScript and
+                        reactJS</p>
                     <a href="#">learn more</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-bullhorn"></i>
                     <h2>Marketing</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt libero sit aut, perferendis
-                        officiis doloremque eaque minus commodi nihil assumenda aliquid possimus inventore? Nisi.</p>
+                    <p>I can be very helpful in marketing of a organisation. I love connecting with people.</p>
                     <a href="#">learn more</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-people-roof"></i>
                     <h2>Managment</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt libero sit aut, perferendis
-                        officiis doloremque eaque minus commodi nihil assumenda aliquid possimus inventore? Nisi.</p>
+                    <p>Being an ex NCC cadet I have amazing leadership and managment quailities.</p>
                     <a href="#">learn more</a>
                 </div>
             </div>
@@ -126,16 +121,18 @@
                         <h3>Portfolio Website</h3>
                         <p>This is a persenol information website. It contains my skills, education, project works and
                             the services that I can provide.</p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <a href=" https://anujkumar-2003.github.io/Portfolio/"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="image/Library-managment-image.jpg" alt="">
                     <div class="layer">
-                        <h3>Library Managment System</h3>
-                        <p>This is a Library Managment System website build by using HTML, CSS, JavaScript and
-                            Bootstrap.</p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <h3>Word Scramble Game</h3>
+                        <p>An interesting word scramble game in which you will
+                            be given a scrambled word and you have to find the correct word.</p>
+                        <a href="https://anujkumar-2003.github.io/Word-Scramble-Game/"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -167,15 +164,16 @@
                         <a href="#"><i class="fa-brands fa-twitter"></i></a>
                         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                     </div>
-                    <a href="#" class="btn btn2">Download CV</a>
+                    <a href="image/Anuj's Resume (1).pdf" class="btn btn2" download>Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form>
+                    <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
+                    <span id="msg"></span>
                 </div>
             </div>
         </div>
@@ -196,6 +194,33 @@
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
         }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby-AvlX07Y7sf1eT68l7JvvDCFG7O68CYUoUeDI65r3up8THERkoGGg8VGodLZy251r/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "We will contact you soon."
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                })
+            form.reset()
+                .catch(error => console.error('Error!', error.message))
+        })
     </script>
 </body>
 
